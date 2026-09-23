@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  oracle-claims-db:
+    image: container-registry.oracle.com/database/free:latest
+    container_name: oracle-claims-dev
+    environment:
+      - ORACLE_PWD=YourSecurePassword123!
+    ports:
+      - "1521:1521"
+    volumes:
+      - oracle-claims-data:/opt/oracle/oradata
+
+volumes:
+  oracle-claims-data:

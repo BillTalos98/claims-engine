@@ -1,7 +1,3 @@
-# claims-engine
-Oracle PL/SQL claims-processing engine with bulk batch processing and immutable audit logging.
-
-
 # Enterprise Social Security Claims Engine
 
 Oracle PL/SQL backend that automates, validates, and executes high-volume
